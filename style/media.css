@@ -1,0 +1,24 @@
+@media screen and (max-width : 800px) {
+    .box-skiil>ul {
+        columns: 1;
+    }
+}
+
+@media screen and (max-width : 600px) {
+
+    .item-menu {
+        margin-top: 3rem ;
+    }
+
+    .item-menu>li { 
+        width: 100%;
+        text-align: center;
+    }
+
+    .box-image-about>img{
+        width: 93%;
+    }
+    .header-menu>menu {
+        display: none;
+    }
+}
